@@ -15,7 +15,7 @@ build_setup.add_default_parameters(
     cpp_file_paths=cpp_files, 
     output_dir=get_directory_path(__file__, 0) + "/bin",
 )
-build_setup.add_vicmil_pip_package("cppGLM")
+build_setup.add_vicmil_pip_package("cppGlm")
 
 build_setup.build_and_run()
 
