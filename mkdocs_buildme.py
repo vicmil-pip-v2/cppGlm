@@ -7,7 +7,7 @@ sys.path.append(str(Path(__file__).resolve().parents[3]))
 sys.path.append(str(Path(__file__).resolve().parents[4]))
 sys.path.append(str(Path(__file__).resolve().parents[5]))
 
-from vicmil_pip.packages.pyMkDocs import *
+from vicmil_pip.lib.pyMkDocs import *
 
 src_dir = get_directory_path(__file__)
 docs_dir = get_directory_path(__file__) + "/docs"
