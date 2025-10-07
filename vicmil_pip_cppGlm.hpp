@@ -8,8 +8,8 @@
 
 #pragma once
 
-#include "glm/glm/gtx/transform.hpp"
-#include "glm/glm/gtx/string_cast.hpp"
+#include "third_party/glm/glm/gtx/transform.hpp"
+#include "third_party/glm/glm/gtx/string_cast.hpp"
 #include "util_std_bonus.hpp"
 
 namespace vicmil
